@@ -1,0 +1,35 @@
+/* ./components/ResponseDisplay.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0051a2;
+}
+
+.popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 5px;
+    transition: opacity 1s ease;
+}

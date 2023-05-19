@@ -1,0 +1,10 @@
+{
+    "prompts": [
+
+        {
+            "id": "1",
+            "prompt": "Turn the below input into a structured json list of objects. Each item in the list should have the following properties: - id - name - description - tags - a relevant website link (if you can find it) Here is an example item: { 'id': '2', 'name': 'Panadería Rosetta', 'tags': ['Café', 'Pastries'], 'link': 'https://www.panaderiarosetta.com/', 'description': 'Famous bakery for pastries & coffee' } Here is the input:"
+        }
+    ]
+
+}

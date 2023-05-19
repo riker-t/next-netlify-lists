@@ -4,3 +4,10 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[functions]
+  directory = "netlify/functions"
+  # specify timeouts
+  [functions.openai-background]
+    timeout = 500
+    maxDuration = 500
