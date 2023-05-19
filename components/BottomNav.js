@@ -32,9 +32,9 @@ export default function BottomNav() {
                 <nav className={styles.bottomNav}>
                     {/* Add your navigation items here */}
                     {/* <a href="/"><FaHome className={styles.icon} /></a> */}
-                    <a href="/"><FaFolderOpen className={styles.icon} /></a>
+                    <a href="/"><FaHome className={styles.icon} /></a>
                     {/* <a href="/pricing"><FaUser className={styles.icon} /></a> */}
-                    <a href="/create"><FaPlusSquare className={styles.icon} /></a>
+                    {/* <a href="/create"><FaPlusSquare className={styles.icon} /></a> */}
                     <a href="/create_async"><FaPlusSquare className={styles.icon} /></a>
                 </nav>
             </div> {/* Add this line */}

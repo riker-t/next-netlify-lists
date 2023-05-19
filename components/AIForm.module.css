@@ -1,38 +1,39 @@
-/* ./components/AIForm.module.css */
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
-  .form {
+}
+    
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .label {
+    width: 100%; 
+    max-width: 400px;
+    padding: 0 15px; /* add some padding to prevent content from touching the screen edges on smaller screens */
+}
+    
+.label {
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
+    text-align: center; 
     width: 100%;
-  }
-  
-  .inputTitle {
-    margin: 10px 0;
-    width: 100%;
+}
     
-  }
-
-  .inputContent {
-    height: 150px; /* adjust this value to your preference */
+.inputTitle {
     margin: 10px 0;
     width: 100%;
-  }
-  
-  .button {
+}
+    
+.inputContent {
+    height: 150px;
+    margin: 10px 0;
+    width: 100%;
+}
+    
+.button {
     margin: 10px 0;
     padding: 10px 20px;
     font-size: 18px;
@@ -42,9 +43,33 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
+}
+    
+.button:hover {
     background-color: #0051a2;
-  }
-  
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* add padding to the container on smaller screens */
+    }
+
+    .label {
+        font-size: 18px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .inputTitle,
+    .inputContent {
+        padding: 10px; /* add padding to the inputs on smaller screens */
+    }
+
+    .inputContent {
+        height: 120px;
+    }
+}
