@@ -9,7 +9,7 @@ const NavigationBar = () => {
     const menuRef = useRef();
 
     const toggleMenu = () => {
-        setMenuVisible(!menuVisible);
+        setMenuVisible((prevMenuVisible) => !prevMenuVisible);
     };
 
     useEffect(() => {

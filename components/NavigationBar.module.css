@@ -39,16 +39,30 @@
 }
 
 @media (min-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
     .menuIcon {
-        display: none;
+        order: 2;
     }
 
     .menu {
-        display: flex;
+        order: 3;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
     }
 
     .navbar ul {
         display: flex;
-        gap: 10px; /* Adjust the value as needed */
-      }
+        gap: 10px;
+        /* Adjust the value as needed */
+    }
+
+    .visible {
+        transform: translateY(0);
+    }
 }
