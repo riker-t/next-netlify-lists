@@ -1,0 +1,302 @@
+{
+    "sections": [
+      {
+        "title": "Friday May 26th",
+        "items": [
+          {
+            "id": "1",
+            "name": "Arrive Florence",
+            "description": "Arrive in Florence at 11 am Friday May 26th",
+            "tags": ["travel", "arrival"],
+            "link": null,
+            "photoUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/57/b0.jpg"
+          },
+          {
+            "id": "2",
+            "name": "Others arrive afternoon",
+            "description": "Other members of the group arrive in the afternoon",
+            "tags": ["travel", "arrival"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "3",
+            "name": "La Rocca",
+            "description": "Booked for 7pm",
+            "tags": ["restaurant", "booking"],
+            "link": "https://www.castelfalfi.com/en/holidays-in-castelfalfi/restaurants/la-rocca-di-castelfalfi/",
+            "photoUrl": null
+          }
+        ]
+      },
+      {
+        "title": "Saturday May 27th",
+        "items": [
+          {
+            "id": "4",
+            "name": "Big lunch at home",
+            "description": "Include in groceries list for Nadia",
+            "tags": ["meal", "groceries"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "5",
+            "name": "Pool",
+            "description": null,
+            "tags": ["recreation"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "6",
+            "name": "Drinks at house and wine bar by house",
+            "description": null,
+            "tags": ["drinks", "wine", "bar"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "7",
+            "name": "Dinner at La Tavernetta",
+            "description": "Booked for 8pm",
+            "tags": ["restaurant", "booking"],
+            "link": null,
+            "photoUrl": null
+          }
+        ]
+      },
+      {
+        "title": "Sunday May 28th - Maggiolata",
+        "items": [
+          {
+            "id": "8",
+            "name": "Maggiolata",
+            "description": "La Maggiolata festival",
+            "tags": ["festival"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "9",
+            "name": "Festival communal dinner in town/party",
+            "description": null,
+            "tags": ["festival", "dinner", "party"],
+            "link": null,
+            "photoUrl": null
+          }
+        ]
+      },
+      {
+        "title": "Monday May 29th (NCC Lucig - Mario)",
+        "items": [
+          {
+            "id": "10",
+            "name": "Nadia cooks big lunch at home",
+            "description": "Confirmed for 12:30pm",
+            "tags": ["meal", "cooking"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "11",
+            "name": "Go to Sienna",
+            "description": "Total price 2 Vans: 720€",
+            "tags": ["travel", "transportation"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "12",
+            "name": "Dinner Sienna - Ristorante Guido",
+            "description": "Reserved for 7:30pm",
+            "tags": ["restaurant", "booking"],
+            "link": null,
+            "photoUrl": null
+          }
+        ]
+      },
+      {
+        "title": "Tuesday May 30th (Matteo)",
+        "items": [
+          {
+            "id": "13",
+            "name": "Day trip to Florence",
+            "description": "Total price 2 Vans: 830€",
+            "tags": ["travel", "sightseeing"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "14",
+            "name": "Stop at The Mall",
+            "description": "1-1.5 hrs",
+            "tags": ["shopping"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "15",
+            "name": "Lunch at La Giostra",
+            "description": "Booked for 1:15 PM",
+            "tags": ["restaurant", "booking"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "16",
+            "name": "Leave Florence",
+            "description": "Depart at 4:45pm",
+            "tags": ["travel", "departure"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "17",
+            "name": "Dinner: Pizzas at the house?",
+            "description": null,
+            "tags": ["meal", "home-cooked"],
+            "link": null,
+            "photoUrl": null
+          }
+        ]
+      },
+      {
+        "title": "Wednesday May 31st (Tini Bday!!!) (NCC Lucig - Mario)",
+        "items": [
+          {
+            "id": "18",
+            "name": "Leave Lucignano",
+            "description": "Leave Lucignano at 10:15am",
+            "tags": ["travel", "departure"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "19",
+            "name": "Vineyard Tenimenti d’Alessandro",
+            "description": "Booked for 11am (1 hr)",
+            "tags": ["vineyard", "wine", "tour"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "20",
+            "name": "Go from vineyard to Cortona",
+            "description": "12:15pm",
+            "tags": ["travel"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "21",
+            "name": "Cortona Tini bday lunch",
+            "description": "Booked for 1:30pm at Locanda Al Pozzo Antico",
+            "tags": ["birthday", "restaurant", "booking"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "22",
+            "name": "Dal Gallo dinner",
+            "description": "8:30pm (need to book or leave up in the air if we want food?)",
+            "tags": ["dinner", "restaurant"],
+            "link": null,
+            "photoUrl": null
+          }
+        ]
+      },
+      {
+        "title": "Thursday June 1 (Matteo)",
+        "items": [
+          {
+            "id": "23",
+            "name": "10:15am from Lucignano to Aggricola Fabbriche",
+            "description": null,
+            "tags": ["travel"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "24",
+            "name": "Aggricola Fabbriche Tuscany",
+            "description": "10:30am (2.5 hrs)",
+            "tags": ["vineyard", "wine", "tour"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "25",
+            "name": "1pm from vineyard to Pienza",
+            "description": null,
+            "tags": ["travel"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "26",
+            "name": "Pienza lunch",
+            "description": "Booked for 1:30 at La Terrazza Del Chiostra",
+            "tags": ["restaurant", "booking"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "27",
+            "name": "Market in village",
+            "description": "Cook our own dinner or maybe final dinner in town",
+            "tags": ["market", "dinner"],
+            "link": null,
+            "photoUrl": null
+          }
+        ]
+      },
+      {
+        "title": "Friday June 2 (Matteo - 1/2 vans)",
+        "items": [
+          {
+            "id": "28",
+            "name": "11:10 from Lucignano to Arezzo train station",
+            "description": null,
+            "tags": ["travel", "departure", "train"],
+            "link": null,
+            "photoUrl": null
+          },
+          {
+            "id": "29",
+            "name": "Train from Arezzo to Rome",
+            "description": "12:17pm",
+            "tags": ["travel", "train"],
+            "link": "https://www.lefrecce.it/Channels.Website.WEB/#/search-results?handoff=true",
+            "photoUrl": null
+          },
+          {
+            "id": "30",
+            "name": "Taverna Trilussa",
+            "description": "7pm",
+            "tags": ["restaurant", "booking"],
+            "link": null,
+            "photoUrl": null
+          }
+        ]
+      },
+      {
+        "title": "Saturday June 3 (Rome)",
+        "items": []
+      },
+      {
+        "title": "Sunday June 4th (Leave)",
+        "items": [
+          {
+            "id": "31",
+            "name": "Leave Rome",
+            "description": "Leave Rome at 6am",
+            "tags": ["travel", "departure"],
+            "link": null,
+            "photoUrl": "https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  

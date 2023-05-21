@@ -2,3 +2,13 @@
     overflow-y: scroll;
     /* padding: 0, 20, 0, 0; */
 }
+
+.sectionTitle {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #F7F7F7; /* Add your desired background color */
+  }
+  
+  
