@@ -1,0 +1,54 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    z-index: 999;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+
+.menuIcon {
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.visible {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .menuIcon {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .navbar ul {
+        display: flex;
+        gap: 10px; /* Adjust the value as needed */
+      }
+}
