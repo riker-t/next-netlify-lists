@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import styles from './BottomNav.module.css';
-import { FaHome, FaFolderOpen, FaPlusSquare } from 'react-icons/fa';
+import { FaHome, FaFolderOpen, FaPlusSquare, FaBars } from 'react-icons/fa';
 import { FaUser } from 'react-icons/fa';
 
 
@@ -36,6 +36,8 @@ export default function BottomNav() {
                     {/* <a href="/pricing"><FaUser className={styles.icon} /></a> */}
                     {/* <a href="/create"><FaPlusSquare className={styles.icon} /></a> */}
                     <a href="/create_async"><FaPlusSquare className={styles.icon} /></a>
+                    <a href="/example_list"><FaBars className={styles.icon} /></a>
+
                 </nav>
             </div> {/* Add this line */}
 
