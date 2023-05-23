@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #004d80;
+  --accent-color: #ff6600;
+  --neutral-color: #f2f2f2;
+  --complementary-color: #ffd700;
+}
+
 html,
 body {
   padding: 0;
