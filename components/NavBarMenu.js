@@ -1,25 +1,43 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import styles from './NavBarMenu.module.css';
 
 const NavbarMenu = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const toggleMenu = () => setMenuOpen(!menuOpen);
+    const [menuOpen, setMenuOpen] = useState(false);
+    const menuRef = useRef();
 
-  return (
-    <div className={`${styles.menuContainer} ${menuOpen ? styles.open : ''}`} onClick={toggleMenu}>
-      <div className={styles.hamburgerIcon}>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div className={styles.menu}>
-        <Link href="/"><a>Home</a></Link>
-        <Link href="/example_list"><a>Example</a></Link>
-        <Link href="/create_async"><a>Create</a></Link>
-      </div>
-    </div>
-  );
+    const toggleMenu = () => setMenuOpen(!menuOpen);
+
+    const handleClickOutside = (event) => {
+        if (menuRef.current && !menuRef.current.contains(event.target)) {
+            setMenuOpen(false);
+        }
+    }
+
+    useEffect(() => {
+        // Add event listener to detect clicks outside of the menu
+        document.addEventListener("mousedown", handleClickOutside);
+
+        return () => {
+            // Clean up event listener on component unmount
+            document.removeEventListener("mousedown", handleClickOutside);
+        }
+    }, []);
+
+    return (
+        <div className={styles.menuContainer} ref={menuRef}>
+            <div className={styles.hamburgerIcon} onClick={toggleMenu}>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div className={`${styles.menu} ${menuOpen ? styles.open : ''}`}>
+                <Link href="/"><a onClick={() => setMenuOpen(false)} >Home</a></Link>
+                <Link href="/example_list"><a onClick={() => setMenuOpen(false)}>Example</a></Link>
+                <Link href="/create_async"><a onClick={() => setMenuOpen(false)}>Create</a></Link>
+            </div>
+        </div>
+    );
 };
 
 export default NavbarMenu;
