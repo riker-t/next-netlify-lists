@@ -12,7 +12,9 @@
     overflow: hidden;
     padding-top: 125%;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid var(--black);
+
 
 }
 
@@ -66,27 +68,4 @@
     padding-right: 10px;
 
 }
-.galleryTitle {
-    font-size: 20px;
-    font-weight: 700;
 
-    color: var(--black);
-
-}
-
-.galleryDescription {
-    font-size: 12px;
-    color: var(--grey)
-}
-
-.itemCta {
-    display: inline-block;
-    align-self: flex-start;
-    font-size: var(--small-text);
-    background-color: var(--white);
-    padding: 2px 4px;
-    border: 2px solid #010101;
-    margin-right: 5px;
-    text-decoration: none;
-    color: #000; 
-}

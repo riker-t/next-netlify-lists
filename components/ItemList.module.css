@@ -4,7 +4,7 @@
 }
 
 .sectionTitle {
-    padding: 10px;
+    padding: 5px 10px;
     border-bottom: 2px solid var(--black);
     font-size: var(--large-text);
     font-weight: bold;

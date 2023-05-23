@@ -5,13 +5,14 @@
     border-bottom: 2px solid var(--black);
     padding: 10px;
     align-items: center;
-    border-radius: 5px;
     overflow: hidden;
 }
 
 .imageContainer {
     width: 176px; 
+    min-width: 160px;
     height: 220px;
+    min-height: 200px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -29,20 +30,22 @@
 
 .contentAndCtasContainer {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     flex-grow: 1;
+    
     
 }
 
 .itemContent {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .itemName {
     font-size: var(--large-text);
+    line-height: 20px;
     font-weight: bold;
     margin: 1px;
 }
@@ -61,7 +64,7 @@
 .itemCta {
     display: inline-block;
     align-self: flex-start;
-    font-size: var(--small-text);
+    font-size: var(--cta-text);
     background-color: var(--white);
     padding: 2px 4px;
     border: 2px solid #010101;
