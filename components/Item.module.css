@@ -1,6 +1,6 @@
 .itemContainer {
     display: flex;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     width: 100%;
     border-bottom: 2px solid var(--black);
     padding: 10px;
@@ -9,7 +9,7 @@
 }
 
 .imageContainer {
-    width: 176px; 
+    width: 176px;
     min-width: 160px;
     height: 220px;
     min-height: 200px;
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 5px;
     border-radius: 5px;
     border: 2px solid #010101;
 }
@@ -29,12 +29,26 @@
 }
 
 .contentAndCtasContainer {
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    flex-grow: 1;
-    
-    
+    display: flex; 
+    justify-content: space-between;
+    /* /* align-items: center; */
+    flex-grow: 1; 
+    padding: 3px;
+    flex-direction: column;
+
+    /* gap: 50px; */
+    /* gap: 20px;
+    display: grid;
+    gap: 5px; */
+
+
+
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: flex-start; */
+    /* padding: 10px; */
+
+
 }
 
 .itemContent {
@@ -47,7 +61,8 @@
     font-size: var(--large-text);
     line-height: 20px;
     font-weight: bold;
-    margin: 1px;
+    margin-bottom: 3px;
+    
 }
 
 .itemDescription {
@@ -59,6 +74,9 @@
     display: flex;
     flex-wrap: wrap;
     margin: 1px;
+    justify-content: space-between;
+
+
 }
 
 .itemCta {
@@ -70,5 +88,5 @@
     border: 2px solid #010101;
     margin-right: 5px;
     text-decoration: none;
-    color: #000; 
+    color: #000;
 }
