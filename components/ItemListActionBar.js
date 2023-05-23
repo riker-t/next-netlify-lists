@@ -18,7 +18,7 @@ const ItemListActionBar = () => {
     <Box sx={{
       position: 'fixed',
       bottom: 60, // Increase padding from bottom
-      right: 10,
+      right: 5,
       '& > :not(style)': { m: 1 },
       display: 'flex',
       flexDirection: 'column-reverse', // Stack buttons vertically
