@@ -1,8 +1,14 @@
 .navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: #fff;  /* ensure navbar is not transparent */
+    z-index: 10;  /* make navbar appear on top of other content */
   }
   
   .logo {
@@ -12,5 +18,13 @@
     color: #000;
   }
 
+
+  @media (min-width: 768px) {
+
+
+    .logo {
+        font-size: larger;
+    }
+}
   
   

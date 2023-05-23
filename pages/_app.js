@@ -8,7 +8,7 @@ function Application({ Component, pageProps }) {
     <>
       {/* <NavigationBar/> */}
       <Navbar/>
-      <BottomNav />
+      {/* <BottomNav /> */}
       <Component {...pageProps} />
 
 
