@@ -7,11 +7,14 @@ import ContentCopyIcon from '@mui/icons-material/FileCopy';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import BookmarkOutlinedIcon from '@mui/icons-material/BookmarkOutlined';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 
 const ItemListActionBar = () => {
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const handleButtonClick = (buttonName) => {
     console.log(`Button ${buttonName} clicked.`);
@@ -20,6 +23,10 @@ const ItemListActionBar = () => {
     palette: {
       primary: {
         main: '#5551FF',
+        darker: '#053e85',
+      },
+      secondary: {
+        main: '#FFFFFF',
         darker: '#053e85',
       }
     },
@@ -37,22 +44,28 @@ const ItemListActionBar = () => {
       alignItems: 'center', // Center buttons
     }}>
       <ThemeProvider theme={theme}>
-      <Fab color="primary" sx={{border: 2, borderColor: 'black'}} onClick={() => setIsOpen(!isOpen)}>
-        <MoreVertIcon />
-      </Fab>
-      {isOpen && (
-        <>
-          <Fab color="primary"  sx={{border: 2, borderColor: 'black'}}onClick={() => navigator.clipboard.writeText('https://main--glittery-monstera-cafd18.netlify.app/example_list')}>
-            <ContentCopyIcon />
-          </Fab>
-          <Fab color="primary"   sx={{border: 2, borderColor: 'black'}}onClick={() => handleButtonClick('Like')}>
-            <FavoriteIcon />
-          </Fab>
-          <Fab color="primary" sx={{border: 2, borderColor: 'black'}}onClick={() => handleButtonClick('Share')}>
-            <BookmarkOutlinedIcon />
-          </Fab>
-        </>
-      )}
+        {isOpen ? (
+        <Fab color="primary" sx={{ border: 2, borderColor: 'black' }} onClick={() => setIsOpen(!isOpen)}>
+          <ExpandMoreIcon />
+        </Fab>
+        ) :
+        <Fab color="primary" sx={{ border: 2, borderColor: 'black' }} onClick={() => setIsOpen(!isOpen)}>
+          <ExpandLessIcon />
+        </Fab>}
+
+        {isOpen && (
+          <>
+            <Fab color="secondary" sx={{ border: 2, borderColor: 'black' }} onClick={() => navigator.clipboard.writeText('https://main--glittery-monstera-cafd18.netlify.app/example_list')}>
+              <ContentCopyIcon />
+            </Fab>
+            <Fab color="secondary" sx={{ border: 2, borderColor: 'black' }} onClick={() => handleButtonClick('Like')}>
+              <FavoriteIcon />
+            </Fab>
+            <Fab color="secondary" sx={{ border: 2, borderColor: 'black' }} onClick={() => handleButtonClick('Share')}>
+              <BookmarkOutlinedIcon />
+            </Fab>
+          </>
+        )}
       </ThemeProvider>
       {/* <Fab color="default" onClick={() => setIsOpen(!isOpen)}>
         <MoreVertIcon />

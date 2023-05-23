@@ -9,11 +9,9 @@
     overflow: hidden;
 }
 
-
 .imageContainer {
-    /* width: 100%; */
-    width: 120px; 
-    height: 150px; /* Fixed height */
+    width: 176px; 
+    height: 220px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -21,23 +19,20 @@
     margin-right: 10px;
     border-radius: 5px;
     border: 2px solid #010101;
-
-
 }
 
 .itemImage {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* max-width: 60px;  Max width to match the container */
-    /* max-height: 75px; Max height to match the container */
 }
 
-.contentAndLinkContainer {
+.contentAndCtasContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
+    
 }
 
 .itemContent {
@@ -49,7 +44,7 @@
 .itemName {
     font-size: var(--large-text);
     font-weight: bold;
-    margin-bottom: 3px; /* Add a bottom margin */
+    margin: 1px;
 }
 
 .itemDescription {
@@ -57,13 +52,13 @@
     font-weight: 100;
 }
 
-.itemTagContainer {
+.itemCtasContainer {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 3px; /* Add a top margin */
+    margin: 1px;
 }
 
-.itemTag {
+.itemCta {
     display: inline-block;
     align-self: flex-start;
     font-size: var(--small-text);
@@ -71,17 +66,6 @@
     padding: 2px 4px;
     border: 2px solid #010101;
     margin-right: 5px;
-}
-
-.itemLink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: var(--small-text);
-    color: #000; 
-    background-color: var(--white); 
-    padding: 10px;
-    border: 2px solid #010101;
-    margin-left: 10px; 
     text-decoration: none;
+    color: #000; 
 }
