@@ -17,7 +17,7 @@ const ItemListActionBar = () => {
   return (
     <Box sx={{
       position: 'fixed',
-      bottom: 120, // Increase padding from bottom
+      bottom: 60, // Increase padding from bottom
       right: 2,
       '& > :not(style)': { m: 1 },
       display: 'flex',

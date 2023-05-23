@@ -8,9 +8,9 @@ export default function Home() {
     <div className="container">
       <main>
         <Header title="Welcome to Lists!" />
-        <p className="description">
+        {/* <p className="description">
           Get started by pressing the <code>+</code> icon in the navigation bar below
-        </p>
+        </p> */}
       </main>
     </div>
   )

@@ -34,7 +34,7 @@ const NavbarMenu = () => {
             <div className={`${styles.menu} ${menuOpen ? styles.open : ''}`}>
                 <Link href="/"><a onClick={() => setMenuOpen(false)} >Home</a></Link>
                 <Link href="/example_list"><a onClick={() => setMenuOpen(false)}>Example</a></Link>
-                <Link href="/create_async"><a onClick={() => setMenuOpen(false)}>Create</a></Link>
+                {/* <Link href="/create_async"><a onClick={() => setMenuOpen(false)}>Create</a></Link> */}
             </div>
         </div>
     );
