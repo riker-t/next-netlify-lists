@@ -5,6 +5,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ContentCopyIcon from '@mui/icons-material/FileCopy';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import BookmarkOutlinedIcon from '@mui/icons-material/BookmarkOutlined';
 
 const ItemListActionBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,22 +24,25 @@ const ItemListActionBar = () => {
       flexDirection: 'column-reverse', // Stack buttons vertically
       alignItems: 'center', // Center buttons
     }}>
+        <Fab color="default" onClick={() => setIsOpen(!isOpen)}>
+        <MoreVertIcon />
+      </Fab>
       {isOpen && (
         <>
-          <Fab color="primary" onClick={() => handleButtonClick('Copy')}>
+          <Fab color="default" onClick={() => handleButtonClick('Copy')}>
             <ContentCopyIcon />
           </Fab>
-          <Fab color="secondary" onClick={() => handleButtonClick('Like')}>
+          <Fab color="default" onClick={() => handleButtonClick('Like')}>
             <FavoriteIcon />
           </Fab>
           <Fab color="default" onClick={() => handleButtonClick('Share')}>
-            <ShareIcon />
+            <BookmarkOutlinedIcon />
           </Fab>
         </>
       )}
-      <Fab color="default" onClick={() => setIsOpen(!isOpen)}>
+      {/* <Fab color="default" onClick={() => setIsOpen(!isOpen)}>
         <MoreVertIcon />
-      </Fab>
+      </Fab> */}
     </Box>
   );
 };
