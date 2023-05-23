@@ -12,8 +12,8 @@
 
 .imageContainer {
     /* width: 100%; */
-    width: 108px; 
-    height: 135px; /* Fixed height */
+    width: 120px; 
+    height: 150px; /* Fixed height */
     overflow: hidden;
     display: flex;
     align-items: center;
