@@ -32,8 +32,13 @@ const NavbarMenu = () => {
                 <div></div>
             </div>
             <div className={`${styles.menu} ${menuOpen ? styles.open : ''}`}>
-                <Link href="/"><a onClick={() => setMenuOpen(false)} >Home</a></Link>
-                <Link href="/example_list"><a onClick={() => setMenuOpen(false)}>Example</a></Link>
+                <div className={styles.menuButton}>
+                    <Link href="/"><a onClick={() => setMenuOpen(false)} >Home</a></Link>
+                </div>
+                <div className={styles.menuButton}>
+                    <Link href="/example_list"><a onClick={() => setMenuOpen(false)}>Example</a></Link>
+                </div>
+
                 {/* <Link href="/create_async"><a onClick={() => setMenuOpen(false)}>Create</a></Link> */}
             </div>
         </div>

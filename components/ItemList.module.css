@@ -5,10 +5,10 @@
 
 .sectionTitle {
     padding: 10px;
-    border-bottom: 1px solid #ddd;
-    font-size: 24px;
+    border-bottom: 2px solid var(--black);
+    font-size: var(--large-text);
     font-weight: bold;
-    background-color: #F7F7F7; /* Add your desired background color */
+    background-color: var(--accent-color); /* Add your desired background color */
   }
   
   

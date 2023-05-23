@@ -6,8 +6,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #fff;  /* ensure navbar is not transparent */
+    padding: 10px;
+    border-bottom: 2px solid var(--black);
+
+    background-color: var(--background-color);  /* ensure navbar is not transparent */
     z-index: 10;  /* make navbar appear on top of other content */
   }
   
@@ -15,7 +17,7 @@
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
-    font-size: larger;
+    font-size: 24px;
     color: #000;
   }
 
