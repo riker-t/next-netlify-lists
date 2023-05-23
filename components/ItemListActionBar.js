@@ -29,7 +29,7 @@ const ItemListActionBar = () => {
       </Fab>
       {isOpen && (
         <>
-          <Fab color="default" onClick={() => handleButtonClick('Copy')}>
+          <Fab color="default" onClick={() => navigator.clipboard.writeText('https://main--glittery-monstera-cafd18.netlify.app/example_list')}>
             <ContentCopyIcon />
           </Fab>
           <Fab color="default" onClick={() => handleButtonClick('Like')}>
