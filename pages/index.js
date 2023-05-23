@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <div className="container">
       <main>
-        <Header title="Welcome to Lists!" />
+        <h1>Welcome to Lists!</h1>
+        {/* <Header title="Welcome to Lists!" /> */}
         {/* <p className="description">
           Get started by pressing the <code>+</code> icon in the navigation bar below
         </p> */}
