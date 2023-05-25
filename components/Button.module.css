@@ -1,6 +1,6 @@
 .container {
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 5px;
@@ -15,4 +15,5 @@
     color: var(--black);
     text-decoration: none;
     text-align: center;
+    align-self: center;
 }
