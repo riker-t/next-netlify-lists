@@ -40,10 +40,9 @@ function GalleryView({ images, index, onClose }) {
   return (
     <>
       <div {...handlers} className={styles.galleryView}>
-        <button className={styles.closeButton} onClick={onClose}>
+        <div className={styles.closeButton} onClick={onClose}>
           <FaArrowAltCircleLeft />
-
-        </button>
+        </div>
 
         <CSSTransition
           in={animating}
