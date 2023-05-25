@@ -29,10 +29,10 @@
     transition: transform 0.3s;
 }
 
-.galleryImageWrapper:hover .clothing-image {
+/* .galleryImageWrapper:hover .clothing-image {
     transform: scale(1.1);
-}
-
+} */
+/* 
 .galleryImageWrapper::after {
     content: '';
     position: absolute;
@@ -44,11 +44,11 @@
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
-}
+} */
 
-.galleryImageWrapper:hover::after {
+/* .galleryImageWrapper:hover::after {
     opacity: 1;
-}
+} */
 
 .galleryImageMeta {
     display: flex;
