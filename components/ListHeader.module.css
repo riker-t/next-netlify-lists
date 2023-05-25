@@ -4,11 +4,11 @@
     align-items: center;
     padding: 10px;
     position: fixed;
-    top: 35px; 
+    top: var(--navbar-height); 
     width: 100%;
     /* left: 0;
     right: 0; */
-    height: 45px;
+    height: var(--listheader-height);
     border-bottom: 2px solid var(--black);
 
     background-color: var(--accent-color);
@@ -26,8 +26,8 @@
   
   .userIcon {
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     border: 2px solid var(--black);
 
@@ -70,8 +70,11 @@
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 30px;
     background-color: var(--white);
+    height: 40px;
+    width: 40px;
+
     padding: 5px;
     cursor: pointer;
     /* other styles as you need */

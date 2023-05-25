@@ -53,14 +53,14 @@ function GalleryView({ images, index, onClose }) {
         </CSSTransition>
         <div className={styles.indicator}>{indicator}</div>
 
-        <div className={styles.galleryContent}>
+        <div className={itemstyles.contentAndCtasContainer}>
           <div className={itemstyles.itemName}>{images[currentImage].name}</div>
           {images[currentImage].description && (
-            <p className={itemstyles.itemDescription}>
+            <div className={itemstyles.itemDescription}>
               {images[currentImage].description}
-            </p>
+            </div>
           )}
-          <div className={itemstyles.contentAndCtasContainer}>
+          <div >
             {images[currentImage].ctas &&
               images[currentImage].ctas.map((cta) => (
                 <a

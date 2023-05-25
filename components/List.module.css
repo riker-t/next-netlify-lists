@@ -1,3 +1,4 @@
 .listContentContainer {
-    margin-top: 45px;
+    margin-top: var(--listheader-height);
+    ;
 }

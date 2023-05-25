@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 3px 10px;
-    height: 35px;
+    height: var(--navbar-height);
     /* padding-left: 10px;
     padding-right: 10px; */
 

@@ -19,16 +19,14 @@ function Item({ item, index, onImageClick }) {
                 </div>
             }
             <div className={styles.contentAndCtasContainer}>
-                <div className={styles.itemContent}>
-                    <div className={styles.itemName}>{item.name}</div>
-                    {item.description && <div className={styles.itemDescription}>{item.description}</div>}
-                    <div className={styles.itemCtasContainer}>
-                        {item.ctas && item.ctas.map(cta => (
-                            <a key={cta.title} href={cta.link} target="_blank" rel="noopener noreferrer" className={styles.itemCta}>
-                                {cta.title}
-                            </a>
-                        ))}
-                    </div>
+                <div className={styles.itemName}>{item.name}</div>
+                {item.description && <div className={styles.itemDescription}>{item.description}</div>}
+                <div className={styles.itemCtasContainer}>
+                    {item.ctas && item.ctas.map(cta => (
+                        <a key={cta.title} href={cta.link} target="_blank" rel="noopener noreferrer" className={styles.itemCta}>
+                            {cta.title}
+                        </a>
+                    ))}
                 </div>
             </div>
         </div>

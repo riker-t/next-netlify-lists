@@ -10,6 +10,8 @@
   --large-text: 22px;
   --largest-text: 24px;
   --small-text: 14px;
+  --navbar-height: 45px;
+  --listheader-height: 55px;
 
 }
 @font-face {
