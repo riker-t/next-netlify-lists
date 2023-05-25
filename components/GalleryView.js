@@ -53,7 +53,7 @@ function GalleryView({ images, index, onClose }) {
         </CSSTransition>
         <div className={styles.indicator}>{indicator}</div>
 
-        <div className={itemstyles.contentAndCtasContainer}>
+        <div className={styles.galleryContent}>
           <div className={itemstyles.itemName}>{images[currentImage].name}</div>
           {images[currentImage].description && (
             <div className={itemstyles.itemDescription}>
