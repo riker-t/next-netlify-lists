@@ -91,7 +91,7 @@
     background-color: var(--white);
     height: 40px;
     width: 40px;
-
+    color: var(--black);
     padding: 5px;
     cursor: pointer;
 
