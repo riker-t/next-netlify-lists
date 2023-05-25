@@ -1,0 +1,79 @@
+.metaContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 35px; 
+    width: 100%;
+    /* left: 0;
+    right: 0; */
+    height: 45px;
+    border-bottom: 2px solid var(--black);
+
+    background-color: var(--accent-color);
+    color: var(--black);
+    z-index: 10;
+    box-sizing: border-box; /* ensure padding doesn't expand box */
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .userIcon {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border: 2px solid var(--black);
+
+  }
+  
+  .userInfo {
+    margin-left: 10px;
+    overflow: hidden;
+    width: 100%;
+    flex: 1;
+  }
+  
+  .listName,
+  .userName {
+    margin: 0; /* remove any default margin */
+    line-height: 1.3; /* adjust line height */
+    font-size: var(--small-text)
+  }
+  
+  .listName {
+    font-weight: bold;
+    font-size: 0.7em; /* adjust size to fit */
+    font-size: var(--normal-text)
+  }
+  
+  .userName {
+    font-size: 0.5em; /* adjust size to fit */
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    justify-content: flex-end;
+
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: var(--white);
+    padding: 5px;
+    cursor: pointer;
+    /* other styles as you need */
+  }
+  

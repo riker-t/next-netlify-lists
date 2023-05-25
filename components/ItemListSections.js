@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Item from './Item';
 import ItemListActionBar from './ItemListActionBar';
+import ListHeader from './ListHeader';
 import GalleryView from './GalleryView';
-import styles from './ItemList.module.css'; 
+import styles from './ItemListSections.module.css'; 
 
-const ItemList = ({ data }) => {
+const ItemListSections = ({ data }) => {
   const [galleryView, setGalleryView] = useState({ isOpen: false, index: null });
   const images = data.sections.flatMap(section => section.items);
 
@@ -18,6 +19,7 @@ const ItemList = ({ data }) => {
 
   return (
     <div className={styles.itemListContainer}>
+      <ListHeader />
       {galleryView.isOpen ? (
         <GalleryView
           images={images}
@@ -29,7 +31,7 @@ const ItemList = ({ data }) => {
           {data.sections.map((section, index) => (
             <Section key={index} section={section} onImageClick={handleImageClick} />
           ))}
-          <ItemListActionBar /> {/* Add ActionBar here */}
+          {/* <ItemListActionBar />  */}
         </>
       )}
     </div>
@@ -45,4 +47,4 @@ const Section = ({ section, onImageClick }) => (
 );
   
 
-export default ItemList;
+export default ItemListSections;

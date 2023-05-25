@@ -1,251 +1,87 @@
 [
-    {
-      "id": "1",
-      "name": "Arrive Florence",
-      "description": "Arrive in Florence at 11 am Friday May 26th",
-      "tags": ["travel", "arrival"],
-      "link": "https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_1200,ar_4:3,g_auto,f_auto/cms/reviews/el-turix/banners/1481155244.35",
-      "photoUrl": "https://assets.bonappetit.com/photos/58e0799638c0ce05051b702c/16:9/w_2560,c_limit/Churreria%20El%20Moro_counter.jpg"
-    },
-    {
-      "id": "2",
-      "name": "Others arrive afternoon",
-      "description": "Other members of the group arrive in the afternoon",
-      "tags": ["travel", "arrival"],
-      "link": "https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_1200,ar_4:3,g_auto,f_auto/cms/reviews/el-turix/banners/1481155244.35",
-      "photoUrl": "https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_1200,ar_4:3,g_auto,f_auto/cms/reviews/el-turix/banners/1481155244.35"
-    },
-    {
-      "id": "3",
-      "name": "La Rocca",
-      "description": "Booked for 7pm",
-      "tags": ["restaurant", "booking"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "4",
-      "name": "Big lunch at home",
-      "description": "Include in groceries list for Nadia",
-      "tags": ["meal", "groceries"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "5",
-      "name": "Pool",
-      "description": null,
-      "tags": ["recreation"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "6",
-      "name": "Drinks at house and wine bar by house",
-      "description": null,
-      "tags": ["drinks", "wine", "bar"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "7",
-      "name": "Dinner at La Tavernetta",
-      "description": "Booked for 8pm",
-      "tags": ["restaurant", "booking"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "8",
-      "name": "Maggiolata",
-      "description": "La Maggiolata festival",
-      "tags": ["festival"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "9",
-      "name": "Festival communal dinner in town/party",
-      "description": null,
-      "tags": ["festival", "dinner", "party"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "10",
-      "name": "Nadia cooks big lunch at home",
-      "description": "Confirmed for 12:30pm",
-      "tags": ["meal", "cooking"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "11",
-      "name": "Go to Sienna",
-      "description": "Total price 2 Vans: 720€",
-      "tags": ["travel", "transportation"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "12",
-      "name": "Dinner Sienna - Ristorante Guido",
-      "description": "Reserved for 7:30pm",
-      "tags": ["restaurant", "booking"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "13",
-      "name": "Return from Sienna",
-      "description": "Depart at 9:15pm",
-      "tags": ["travel", "return"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "14",
-      "name": "Day trip to Florence",
-      "description": "Total price 2 Vans: 830€",
-      "tags": ["travel", "sightseeing"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "15",
-      "name": "Stop at The Mall",
-      "description": "1-1.5 hrs",
-      "tags": ["shopping"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "16",
-      "name": "Lunch at La Giostra",
-      "description": "Booked for 1:15 PM",
-      "tags": ["restaurant", "booking"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "17",
-      "name": "Leave Florence",
-      "description": "Depart at 4:45pm",
-      "tags": ["travel", "departure"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "18",
-      "name": "Dinner: Pizzas at the house?",
-      "description": null,
-      "tags": ["meal", "home-cooked"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "19",
-      "name": "Leave Lucignano",
-      "description": "Leave Lucignano at 10:15am",
-      "tags": ["travel", "departure"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "20",
-      "name": "Vineyard Tenimenti d’Alessandro",
-      "description": "Booked for 11am (1 hr)",
-      "tags": ["vineyard", "wine", "tour"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "21",
-      "name": "Go from vineyard to Cortona",
-      "description": "12:15pm",
-      "tags": ["travel"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "22",
-      "name": "Cortona Tini bday lunch",
-      "description": "Booked for 1:30pm at Locanda Al Pozzo Antico",
-      "tags": ["birthday", "restaurant", "booking"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "23",
-      "name": "Dal Gallo dinner",
-      "description": "8:30pm (need to book or leave up in the air if we want food?)",
-      "tags": ["dinner", "restaurant"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "24",
-      "name": "Aggricola Fabbriche Tuscany",
-      "description": "10:30am (2.5 hrs)",
-      "tags": ["vineyard", "wine", "tour"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "25",
-      "name": "Pienza lunch",
-      "description": "Booked for 1:30 at La Terrazza Del Chiostra",
-      "tags": ["restaurant", "booking"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "26",
-      "name": "Market in village",
-      "description": "Cook our own dinner or maybe final dinner in town",
-      "tags": ["market", "dinner"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "27",
-      "name": "Leave Lucignano to Arezzo train station",
-      "description": "11:10am",
-      "tags": ["travel", "departure", "train"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "28",
-      "name": "Train from Arezzo to Rome",
-      "description": "12:17pm",
-      "tags": ["travel", "train"],
-      "link": "https://www.lefrecce.it/Channels.Website.WEB/#/search-results?handoff=true",
-      "photoUrl": null
-    },
-    {
-      "id": "29",
-      "name": "Taverna Trilussa",
-      "description": "7pm",
-      "tags": ["restaurant", "booking"],
-      "link": null,
-      "photoUrl": null
-    },
-    {
-      "id": "30",
-      "name": "Saturday June 3 (Rome)",
-      "description": null,
-      "tags": [],
-      "link": "https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_1200,ar_4:3,g_auto,f_auto/cms/reviews/el-turix/banners/1481155244.35",
-      "photoUrl": null
-    },
-    {
-      "id": "31",
-      "name": "Leave Rome",
-      "description": "Leave Rome at 6am",
-      "tags": ["travel", "departure"],
-      "link": null,
-      "photoUrl": "https://assets.bonappetit.com/photos/58e0799638c0ce05051b702c/16:9/w_2560,c_limit/Churreria%20El%20Moro_counter.jpg"
-    }
-  ]
-  
+  {
+    "id": "1",
+    "name": "Arrive Florence",
+    "description": "Arrive in Florence at 11 am Friday May 26th",
+    "photoUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/57/b0.jpg",
+    "ctas": []
+  },
+  {
+    "id": "2",
+    "name": "Others arrive afternoon",
+    "description": "Other members of the group arrive in the afternoon",
+    "photoUrl": null,
+    "ctas": []
+  },
+  {
+    "id": "3",
+    "name": "La Rocca",
+    "description": "Booked for 7pm",
+    "photoUrl": "https://images.squarespace-cdn.com/content/v1/5624382fe4b06680fc77390e/1477440923058-XB5UGVM7YWJ5P7EXG3Q9/La+Rocca+di+Castelfalfi?format=2500w",
+    "ctas": [
+      {
+        "link": "https://www.castelfalfi.com/en/holidays-in-castelfalfi/restaurants/la-rocca-di-castelfalfi/",
+        "title": "website"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Big lunch at home",
+    "description": "Include in groceries list for Nadia",
+    "photoUrl": null,
+    "ctas": []
+  },
+  {
+    "id": "5",
+    "name": "Name",
+    "description": null,
+    "photoUrl": null,
+    "ctas": []
+  },
+  {
+    "id": "6",
+    "name": "Drinks at house and wine bar by house",
+    "description": null,
+    "photoUrl": null,
+    "ctas": []
+  },
+  {
+    "id": "7",
+    "name": "Dinner at La Tavernetta",
+    "description": "Booked for 8pm",
+    "photoUrl": null,
+    "ctas": [
+      {
+        "link": "http://www.latavernetta.com/en/",
+        "title": "website"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Maggiolata",
+    "description": "La Maggiolata festival",
+    "photoUrl": "https://cdn1.discovertuscany.com/img/san-gimignano/festa-medievale/san-gimignano-ferie-messi15.jpg?auto=compress,enhance,format&w=480&q=40",
+    "ctas": [
+      {
+        "link": "https://www.italybyevents.com/en/events/tuscany/maggiolata-lucignano/",
+        "title": "website"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Festival communal dinner in town/party",
+    "description": null,
+    "photoUrl": null,
+    "ctas": []
+  },
+  {
+    "id": "10",
+    "name": "Nadia cooks big lunch at home",
+    "description": "Confirmed for 12:30pm",
+    "photoUrl": null,
+    "ctas": []
+  }
+]

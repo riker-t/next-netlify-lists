@@ -1,31 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import styles from './GalleryView.module.css';
 import itemstyles from './Item.module.css';
-import ItemListActionBar from './ItemListActionBar';
 
 function GalleryView({ images, index, onClose }) {
   const [currentImage, setCurrentImage] = useState(index);
-
-//   const handlers = useSwipeable({
-//     onSwipedLeft: () =>
-//       setCurrentImage((oldIndex) => (oldIndex + 1) % images.length),
-//     onSwipedRight: () =>
-//       setCurrentImage((oldIndex) => (oldIndex - 1 + images.length) % images.length),
-//     preventDefaultTouchmoveEvent: true,
-//     trackMouse: true,
-//   });
+  const [transitioning, setTransitioning] = useState(false);
 
   const handlers = useSwipeable({
     onSwipedLeft: () => {
+      setTransitioning(true);
       let nextImageIndex = currentImage;
       do {
         nextImageIndex = (nextImageIndex + 1) % images.length;
-        console.log(nextImageIndex)
       } while (images[nextImageIndex].photoUrl === null);
       setCurrentImage(nextImageIndex);
     },
     onSwipedRight: () => {
+      setTransitioning(true);
       let prevImageIndex = currentImage;
       do {
         prevImageIndex = (prevImageIndex - 1 + images.length) % images.length;
@@ -38,9 +30,18 @@ function GalleryView({ images, index, onClose }) {
 
   const indicator = `${currentImage + 1}/${images.length}`;
 
+  useEffect(() => {
+    if (transitioning) {
+      const timer = setTimeout(() => {
+        setTransitioning(false);
+      }, 300);
+      return () => clearTimeout(timer);
+    }
+  }, [transitioning]);
+
   return (
     <>
-      <div {...handlers} className={styles.galleryView} onClick={onClose}>
+      <div {...handlers} className={`${styles.galleryView} ${transitioning ? styles.transitioning : ''}`} onClick={onClose}>
         <div className={styles.galleryImageWrapper}>
           <img
             src={images[currentImage].photoUrl}
@@ -49,6 +50,7 @@ function GalleryView({ images, index, onClose }) {
           />
         </div>
         <div className={styles.indicator}>{indicator}</div>
+
 
         <div className={styles.galleryContent}>
           <div className={itemstyles.itemName}>{images[currentImage].name}</div>
@@ -73,7 +75,6 @@ function GalleryView({ images, index, onClose }) {
           </div>
         </div>
       </div>
-      <ItemListActionBar />
     </>
   );
 }

@@ -70,7 +70,7 @@
 
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .hamburgerIcon {
         display: none;
     }
@@ -81,9 +81,9 @@
         justify-content: flex-start;
         position: relative;
         transform: none;
-        height: 50px;  /* set a specific height for wider screens */
+        height: 50px;  
         background-color: transparent;
-        align-items: center;  /* reset alignment for wider screens */
+        align-items: center; 
         padding-bottom: 20px;
         width: auto;
     }
@@ -93,4 +93,4 @@
         margin-left: 20px;
         font-size: 24px;
     }
-}
+} */
