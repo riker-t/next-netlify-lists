@@ -9,14 +9,14 @@
   {
     "id": "2",
     "name": "Others arrive afternoon",
-    "description": "Other members of the group arrive in the afternoon",
+    "description": "Other members of the group arrive in the afternoon on Friday May 26th",
     "photoUrl": null,
     "ctas": []
   },
   {
     "id": "3",
     "name": "La Rocca",
-    "description": "Booked for 7pm",
+    "description": "Booked for 7pm on Friday May 26th",
     "photoUrl": "https://images.squarespace-cdn.com/content/v1/5624382fe4b06680fc77390e/1477440923058-XB5UGVM7YWJ5P7EXG3Q9/La+Rocca+di+Castelfalfi?format=2500w",
     "ctas": [
       {
@@ -28,28 +28,28 @@
   {
     "id": "4",
     "name": "Big lunch at home",
-    "description": "Include in groceries list for Nadia",
+    "description": "Saturday May 27th",
     "photoUrl": null,
     "ctas": []
   },
   {
     "id": "5",
-    "name": "Name",
-    "description": null,
+    "name": "Pool",
+    "description": "Saturday May 27th",
     "photoUrl": null,
     "ctas": []
   },
   {
     "id": "6",
     "name": "Drinks at house and wine bar by house",
-    "description": null,
+    "description": "Saturday May 27th",
     "photoUrl": null,
     "ctas": []
   },
   {
     "id": "7",
     "name": "Dinner at La Tavernetta",
-    "description": "Booked for 8pm",
+    "description": "Booked for 8pm on Saturday May 27th",
     "photoUrl": null,
     "ctas": [
       {
@@ -61,8 +61,8 @@
   {
     "id": "8",
     "name": "Maggiolata",
-    "description": "La Maggiolata festival",
-    "photoUrl": "https://cdn1.discovertuscany.com/img/san-gimignano/festa-medievale/san-gimignano-ferie-messi15.jpg?auto=compress,enhance,format&w=480&q=40",
+    "description": "La Maggiolata festival on Sunday May 28th",
+    "photoUrl": "https://cdn1.discovertuscany.com/img/certaldo/mercantia/certaldo-mercantia.jpg?auto=compress,enhance,format&w=",
     "ctas": [
       {
         "link": "https://www.italybyevents.com/en/events/tuscany/maggiolata-lucignano/",
@@ -73,29 +73,29 @@
   {
     "id": "9",
     "name": "Festival communal dinner in town/party",
-    "description": null,
+    "description": "Sunday May 28th",
     "photoUrl": null,
     "ctas": []
   },
   {
     "id": "10",
     "name": "Nadia cooks big lunch at home",
-    "description": "Confirmed for 12:30pm",
+    "description": "Confirmed for 12:30pm on Monday May 29th",
     "photoUrl": null,
     "ctas": []
   },
   {
     "id": "11",
     "name": "Go to Sienna",
-    "description": "Total price 2 Vans: 720€",
+    "description": "Total price 2 Vans: 720€ on Monday May 29th",
     "photoUrl": null,
     "ctas": []
   },
   {
     "id": "12",
     "name": "Dinner Sienna - Ristorante Guido",
-    "description": "Reserved for 7:30pm",
-    "photoUrl": "https://www.illocalediguido.it/wp-content/uploads/2020/05/pici-cacio-pepe-600x400.jpg",
+    "description": "Reserved for 7:30pm on Monday May 29th",
+    "photoUrl": "https://cdn.shopify.com/s/files/1/0148/1945/9126/articles/Cacio_e_Pepe_small_593baafb-77a1-42cb-bf31-000b2f486e89_720x.jpg?v=1614898031",
     "ctas": [
       {
         "link": "https://www.illocalediguido.it/",
@@ -106,28 +106,165 @@
   {
     "id": "13",
     "name": "Day trip to Florence",
-    "description": "Total price 2 Vans: 830€",
+    "description": "Total price 2 Vans: 830€ on Tuesday May 30th",
     "ctas": [],
     "photoUrl": "https://thegapdecaders.com/wp-content/uploads/2020/10/Florence15.jpg.webp"
   },
   {
     "id": "14",
     "name": "Stop at The Mall",
-    "description": "1-1.5 hrs",
+    "description": "1-1.5 hrs on Tuesday May 30th",
     "ctas": [],
     "photoUrl": null
   },
   {
     "id": "15",
     "name": "Lunch at La Giostra",
-    "description": "Booked for 1:15 PM",
+    "description": "Booked for 1:15 PM on Tuesday May 30th",
     "ctas": [],
-    "photoUrl": "https://media-cdn.tripadvisor.com/media/photo-s/16/97/f9/16/dining-room.jpg"
+    "photoUrl": "https://americadomani.com/wp-content/uploads/2023/02/florence-restaurants-.jpg"
   },
   {
     "id": "16",
     "name": "Leave Florence",
-    "description": "Depart at 4:45pm",
+    "description": "Depart at 4:45pm on Tuesday May 30th",
+    "ctas": [],
+    "photoUrl": null
+  },
+  {
+    "id": "17",
+    "name": "Dinner: Pizzas at the house?",
+    "description": "Tuesday May 30th",
+    "ctas": [],
+    "photoUrl": null
+  },
+  {
+    "id": "18",
+    "name": "Leave Lucignano",
+    "description": "Leave Lucignano at 10:15am on Wednesday May 31st",
+    "ctas": [],
+    "photoUrl": null
+  },
+  {
+    "id": "19",
+    "name": "Vineyard Tenimenti d’Alessandro",
+    "description": "Booked for 11am (1 hr) on Wednesday May 31st",
+    "ctas": [
+      {
+        "title": "Vineyard Website",
+        "link": "https://www.tenimentidalessandro.it/en/"
+      }
+    ],
+    "photoUrl": "https://www.tenimentidalessandro.it/wp-content/themes/tenimenti-child/images/slider/tenimenti/tenimenti_5.jpg"
+  },
+  {
+    "id": "20",
+    "name": "Go from vineyard to Cortona",
+    "description": "12:15pm on Wednesday May 31st",
+    "ctas": [],
+    "photoUrl": null
+  },
+  {
+    "id": "21",
+    "name": "Cortona Tini bday lunch",
+    "description": "Booked for 1:30pm at Locanda Al Pozzo Antico on Wednesday May 31st",
+    "ctas": [
+      {
+        "title": "Restaurant Website",
+        "link": "http://www.cortonastorica.com/cortona-tuscany/pozzo-antico/menu-restaurant-locanda-al-pozzo-antico-historic-center-cortona-tuscany/"
+      }
+    ],
+    "photoUrl": "https://media.cnn.com/api/v1/images/stellar/prod/210211140233-03-classic-italian-dishes.jpg?q=w_2512,h_1413,x_0,y_0,c_fill/w_1280"
+  },
+  {
+    "id": "22",
+    "name": "Dal Gallo dinner",
+    "description": "8:30pm (need to book or leave up in the air if we want food?) on Wednesday May 31st",
+    "ctas": [],
+    "photoUrl": null
+  },
+  {
+    "id": "23",
+    "name": "10:15am from Lucignano to Aggricola Fabbriche",
+    "description": "Thursday June 1st",
+    "ctas": [],
+    "photoUrl": null
+  },
+  {
+    "id": "24",
+    "name": "Aggricola Fabbriche Tuscany",
+    "description": "10:30am (2.5 hrs) on Thursday June 1st",
+    "ctas": [
+      {
+        "title": "Vineyard Website",
+        "link": "https://www.tuscanywineries.it/en/agricola-fabbriche/"
+      }
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmluZXlhcmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+  },
+  {
+    "id": "25",
+    "name": "1pm from vineyard to Pienza",
+    "description": "Thursday June 1st",
+    "ctas": [],
+    "photoUrl": null
+  },
+  {
+    "id": "26",
+    "name": "Pienza lunch",
+    "description": "Booked for 1:30 at La Terrazza Del Chiostra on Thursday June 1st",
+    "ctas": [
+      {
+        "title": "Restaurant Website",
+        "link": "https://www.laterrazzadelchiostro.it/"
+      }
+    ],
+    "photoUrl": "https://1.bp.blogspot.com/-UtfIcEJVZIA/Vbui-QQVOkI/AAAAAAAAIMc/OFxwYiLNDoA/w1200-h630-p-k-no-nu/terrazza-chiostro.jpg"
+  },
+  {
+    "id": "27",
+    "name": "Market in village",
+    "description": "Cook our own dinner or maybe final dinner in town on Thursday June 1st",
+    "ctas": [],
+    "photoUrl": null
+  },
+  {
+    "id": "28",
+    "name": "11:10 from Lucignano to Arezzo train station",
+    "description": "Friday June 2nd",
+    "ctas": [],
+    "photoUrl": null
+  },
+  {
+    "id": "29",
+    "name": "Train from Arezzo to Rome",
+    "description": "12:17pm on Friday June 2nd",
+    "ctas": [],
+    "photoUrl": null
+  },
+  {
+    "id": "30",
+    "name": "Taverna Trilussa",
+    "description": "7pm on Friday June 2nd",
+    "ctas": [
+      {
+        "title": "Restaurant Website",
+        "link": "https://tavernatrilussa.com/"
+      }
+    ],
+    "photoUrl": "https://images.squarespace-cdn.com/content/v1/55e3828be4b0b05d86d473be/1517327913299-YGAH2GSZ8I1GKFQ46NAV/food+of+rome+-+Dinner+at+Taverna+Trilussa+in+Rome+.jpg?format=1000w"
+  },
+  {
+    "id": "31",
+    "name": "Rome",
+    "description": "Saturday June 3rd",
+    "ctas": [],
+    "photoUrl": "https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg"
+  },
+  {
+    "id": "32",
+    "name": "Leave",
+    "description": "Sunday June 4th",
     "ctas": [],
     "photoUrl": null
   }
