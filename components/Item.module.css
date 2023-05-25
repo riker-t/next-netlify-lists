@@ -9,10 +9,10 @@
 }
 
 .imageContainer {
-    width: 176px;
-    min-width: 176px;
-    height: 220px;
-    min-height: 220px;
+    width: 160px;
+    min-width: 160px;
+    height: 200px;
+    min-height: 200px;
     overflow: hidden;
     display: flex;
     align-items: center;
