@@ -42,15 +42,14 @@ function GalleryView({ images, index, onClose }) {
       <div {...handlers} className={styles.galleryView}>
         <div className={styles.closeButton} onClick={onClose}>
           <FaArrowAltCircleLeft />
+
         </div>
 
         <CSSTransition
-          key={currentImage} // unique key
-          in={!animating} // set to `true` when the image needs to be visible
+          in={animating}
           timeout={300}
           classNames={`slide-${direction}`}
           onEntered={() => setAnimating(false)}
-          unmountOnExit
         >
           <div className={styles.galleryImageWrapper}>
             <img
@@ -60,7 +59,6 @@ function GalleryView({ images, index, onClose }) {
             />
           </div>
         </CSSTransition>
-
         <div className={styles.indicator}>{indicator}</div>
 
         <div className={styles.galleryContent}>
