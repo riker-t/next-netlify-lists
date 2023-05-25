@@ -5,7 +5,7 @@ import ListHeader from './ListHeader';
 import GalleryView from './GalleryView';
 import styles from './List.module.css';
 
-const ItemListSections = ({ data }) => {
+const List = ({ data }) => {
   const [galleryView, setGalleryView] = useState({ isOpen: false, index: null });
 
   const handleImageClick = index => {
@@ -37,4 +37,4 @@ const ItemListSections = ({ data }) => {
   );
 };
 
-export default ItemListSections;
+export default List;

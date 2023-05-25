@@ -4,6 +4,9 @@ import { CSSTransition } from 'react-transition-group';
 import styles from './GalleryView.module.css';
 import itemstyles from './Item.module.css';
 
+import { FaList } from 'react-icons/fa';
+
+
 function GalleryView({ images, index, onClose }) {
   const [currentImage, setCurrentImage] = useState(index);
   const [animating, setAnimating] = useState(false);
@@ -37,6 +40,11 @@ function GalleryView({ images, index, onClose }) {
   return (
     <>
       <div {...handlers} className={styles.galleryView} onClick={onClose}>
+        <button className={styles.closeButton} onClick={onClose}>
+          <FaList/>
+          
+          </button> {/* Changed this line */}
+
         <CSSTransition
           in={animating}
           timeout={300}

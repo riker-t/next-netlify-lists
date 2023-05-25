@@ -98,3 +98,43 @@
     transition: transform 300ms;
   }
 
+  .closeButton {
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+    z-index: 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: var(--white);
+    height: 40px;
+    width: 40px;
+
+    padding: 5px;
+    cursor: pointer;
+
+
+
+
+    /* z-index ensures that the button is displayed above the image. 
+       Adjust this value based on your other layers */
+  }
+ 
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: var(--white);
+    height: 40px;
+    width: 40px;
+
+    padding: 5px;
+    cursor: pointer;
+    /* other styles as you need */
+  }
