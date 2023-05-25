@@ -59,23 +59,28 @@
     transition: transform 0.3s;
 }
 
-.slide-right-enter {
-    transform: translateX(-50%);
-  }
-  
-  .slide-right-enter-active {
-    transform: translateX(0);
-    transition: transform 300ms;
-  }
-  
-  .slide-left-enter {
-    transform: translateX(50%);
-  }
-  
-  .slide-left-enter-active {
-    transform: translateX(0);
-    transition: transform 300ms;
-  }
+.slide-right-enter,
+.slide-left-exit {
+  transform: translateX(-100%);
+}
+
+.slide-right-enter-active,
+.slide-left-exit-active {
+  transform: translateX(0);
+  transition: transform 300ms;
+}
+
+.slide-left-enter,
+.slide-right-exit {
+  transform: translateX(100%);
+}
+
+.slide-left-enter-active,
+.slide-right-exit-active {
+  transform: translateX(0);
+  transition: transform 300ms;
+}
+
 
   .closeButton {
     position: absolute;

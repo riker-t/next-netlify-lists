@@ -45,10 +45,12 @@ function GalleryView({ images, index, onClose }) {
         </div>
 
         <CSSTransition
-          in={animating}
+          key={currentImage} // unique key
+          in={!animating} // set to `true` when the image needs to be visible
           timeout={300}
           classNames={`slide-${direction}`}
           onEntered={() => setAnimating(false)}
+          unmountOnExit
         >
           <div className={styles.galleryImageWrapper}>
             <img
@@ -58,6 +60,7 @@ function GalleryView({ images, index, onClose }) {
             />
           </div>
         </CSSTransition>
+
         <div className={styles.indicator}>{indicator}</div>
 
         <div className={styles.galleryContent}>
