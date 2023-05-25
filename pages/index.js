@@ -7,8 +7,8 @@ export default function Home() {
     <div className = {styles.container}>
         <h1>Welcome to Lists!</h1>
         <div className = {styles.buttonsContainer}>
-          {/* <Button link='/example_list' cta = 'Explore'/>
-          <Button link='/create_async' cta = 'Create'/> */}
+          <Button link='/example_list_new' cta = 'See an Example'/>
+          {/* <Button link='/create_async' cta = 'Create'/> */}
         </div>
         {/* <Header title="Welcome to Lists!" /> */}
         {/* <p className="description">
