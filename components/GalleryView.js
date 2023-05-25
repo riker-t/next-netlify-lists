@@ -53,7 +53,28 @@ function GalleryView({ images, index, onClose }) {
         </CSSTransition>
         <div className={styles.indicator}>{indicator}</div>
 
-        {/* Rest of your JSX code */}
+        <div className={styles.galleryContent}>
+          <div className={itemstyles.itemName}>{images[currentImage].name}</div>
+          {images[currentImage].description && (
+            <p className={itemstyles.itemDescription}>
+              {images[currentImage].description}
+            </p>
+          )}
+          <div className={itemstyles.contentAndCtasContainer}>
+            {images[currentImage].ctas &&
+              images[currentImage].ctas.map((cta) => (
+                <a
+                  key={cta.title}
+                  href={cta.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={itemstyles.itemCta}
+                >
+                  {cta.title}
+                </a>
+              ))}
+          </div>
+        </div>
       </div>
     </>
   );

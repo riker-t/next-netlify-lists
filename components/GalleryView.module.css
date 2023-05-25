@@ -75,7 +75,7 @@
 }
 
 .slide-right-enter {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
   
   .slide-right-enter-active {
@@ -84,7 +84,7 @@
   }
   
   .slide-left-enter {
-    transform: translateX(100%);
+    transform: translateX(50%);
   }
   
   .slide-left-enter-active {
