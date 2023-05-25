@@ -4,7 +4,7 @@ import { CSSTransition } from 'react-transition-group';
 import styles from './GalleryView.module.css';
 import itemstyles from './Item.module.css';
 
-import { FaList } from 'react-icons/fa';
+import { FaArrowAltCircleLeft } from 'react-icons/fa';
 
 
 function GalleryView({ images, index, onClose }) {
@@ -39,11 +39,11 @@ function GalleryView({ images, index, onClose }) {
 
   return (
     <>
-      <div {...handlers} className={styles.galleryView} onClick={onClose}>
+      <div {...handlers} className={styles.galleryView}>
         <button className={styles.closeButton} onClick={onClose}>
-          <FaList/>
-          
-          </button> {/* Changed this line */}
+          <FaArrowAltCircleLeft />
+
+        </button>
 
         <CSSTransition
           in={animating}
