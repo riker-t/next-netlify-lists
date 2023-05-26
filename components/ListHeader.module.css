@@ -54,7 +54,7 @@
   }
   
   .userName {
-    font-size: 0.5em; /* adjust size to fit */
+    font-size: var(--small-text);
   }
   
   .actionButtons {

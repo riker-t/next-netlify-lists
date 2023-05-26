@@ -41,7 +41,7 @@
 
 
 .itemName {
-    font-size: var(--large-text);
+    font-size: var(--normal-text);
     line-height: 20px;
     font-weight: bold;
     margin-bottom: 3px;
@@ -65,7 +65,7 @@
 .itemCta {
     display: inline-block;
     align-self: flex-start;
-    font-size: var(--cta-text);
+    font-size: var(--normal-text);
     background-color: var(--white);
     padding: 2px 4px;
     border: 2px solid #010101;

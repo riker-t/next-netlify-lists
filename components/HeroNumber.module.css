@@ -10,6 +10,7 @@
 .number {
     font-weight: bold;
     margin-bottom: 5px;
+    font-size: var(--normal-text)
 }
 
 .label {
