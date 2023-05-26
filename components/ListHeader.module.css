@@ -50,7 +50,6 @@
   
   .listName {
     font-weight: bold;
-    font-size: 0.7em; /* adjust size to fit */
     font-size: var(--normal-text)
   }
   

@@ -12,7 +12,9 @@
     padding: 5px;
     border-top: 2px solid var(--black);
     border-bottom: 2px solid var(--black);
-    height: var(--listheader-height)
+    height: var(--listheader-height);
+    font-weight: bold;
+
 
 }
 
