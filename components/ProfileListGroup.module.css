@@ -1,0 +1,45 @@
+/* ProfileListGroup.module.css */
+.group {
+    overflow: hidden; /* Hide the scroll indicator */
+    padding-bottom: 2px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent-color);
+    padding: 5px;
+    border-top: 2px solid var(--black);
+    border-bottom: 2px solid var(--black);
+    height: var(--listheader-height)
+
+}
+
+.title {
+    font-size: var(--normal-text);
+    color: var(--black);
+    margin-left: 10px;
+
+
+}
+
+.viewAll {
+    color: #666;
+}
+
+.list {
+    display: flex;
+    scroll-snap-type: x mandatory; /* Enable horizontal scrolling */
+    overflow-x: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 3px;
+    scrollbar-width: none; /* Hide the scrollbar */
+    -ms-overflow-style: none; /* Hide the scrollbar for Internet Explorer and Edge */
+}
+
+
+.list::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for WebKit browsers */
+}

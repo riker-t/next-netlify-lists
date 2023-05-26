@@ -1,0 +1,34 @@
+/* ProfileInfo.module.css */
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--black);
+
+}
+
+.profile-name {
+    margin-top: 10px;
+    text-align: center;
+    color: var(--black);
+    font-size: var(--largest-text)
+
+}
+
+@media (max-width: 480px) {
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+    .profile-name {
+        font-size: 20px;
+    }
+}
