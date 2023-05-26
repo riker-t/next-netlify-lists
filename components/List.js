@@ -19,21 +19,23 @@ const List = ({ data }) => {
   return (
     <div>
       <ListHeader />
-      <div className = {styles.listContentContainer }> </div>
-      {galleryView.isOpen ? (
-        <GalleryView
-          images={data}
-          index={galleryView.index}
-          onClose={handleCloseGallery}
-        />
-      ) : (
-        <div>
-          {data.map((item, index) => (
-            <Item key={item.id} item={item} index={index} onImageClick={handleImageClick} />
-          ))}
-        </div>
-      )}
+      <div className={styles.listContentContainer}>
+        {galleryView.isOpen ? (
+          <GalleryView
+            images={data}
+            index={galleryView.index}
+            onClose={handleCloseGallery}
+          />
+        ) : (
+          <div>
+            {data.map((item, index) => (
+              <Item key={item.id} item={item} index={index} onImageClick={handleImageClick} />
+            ))}
+          </div>
+        )}
+      </div>
     </div>
+
   );
 };
 

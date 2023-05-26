@@ -23,7 +23,7 @@
 }
 html,
 body {
-  padding: 0;
+  /* padding: 0; */
   background-color: var(--background-color);
   font-family: 'Whyte', sans-serif;
   /* font-weight: normal; */
