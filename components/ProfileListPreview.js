@@ -10,7 +10,7 @@ function ProfileListPreview({ id, name, image, likes, saves }) {
 
     return (
         <div className={styles.preview} onClick={handleClick}>
-            <Link href='/404'>
+            <Link href='/example_list_new'>
 
                 <img className={styles.image} src={image} alt={name} />
             </Link>
