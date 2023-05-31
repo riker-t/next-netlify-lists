@@ -1,0 +1,49 @@
+.searchBar {
+    width: 100%;
+    padding: 1em; /* Increase padding for taller input */
+    /* margin-bottom: 1em; */
+    outline: none; /* Remove outline */
+    background-color: var(--white);
+    border-bottom: 2px solid var(--black);
+  }
+  .tabs {
+    display: flex;
+    position: relative;
+    /* border-bottom: 2px solid #ddd; */
+    padding: 5px;
+  }
+  
+  .tab {
+    flex: 1;
+    /* padding: 1em; */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: color 0.3s;
+    font-size: var(--large-text)
+  }
+  
+/*   
+  .activeTab {
+    color: #333;
+  } */
+  
+  .underline {
+    position: absolute;
+    bottom: -2px;
+    height: 4px;
+    background-color: var(--complementary-color);
+    transition: left 0.3s, right 0.3s;
+  }
+  
+  .underline.list {
+    left: 0;
+    right: 50%;
+  }
+  
+  .underline.profile {
+    left: 50%;
+    right: 0;
+  }
+  

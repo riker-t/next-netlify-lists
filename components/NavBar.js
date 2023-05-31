@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import NavBarMenu from './NavBarMenu';
 import styles from './NavBar.module.css';
+import SearchIcon from '@mui/icons-material/Search'
+
 
 const Navbar = () => {
   return (
@@ -9,7 +11,10 @@ const Navbar = () => {
       <Link href="/">
         <a className={styles.logo}>Lists</a>
       </Link>
-      <NavBarMenu />
+      <Link href="/search">
+        <SearchIcon className={styles.icon} fontSize='large' />
+      </Link>
+      {/* <NavBarMenu /> */}
     </nav>
   );
 };

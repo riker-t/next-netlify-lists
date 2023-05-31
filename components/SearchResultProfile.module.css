@@ -1,0 +1,22 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1em;
+  }
+  
+  .profileImage {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .profileName {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  

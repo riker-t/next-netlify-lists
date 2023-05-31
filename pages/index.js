@@ -23,7 +23,7 @@ export default function Home() {
           <div className={styles.painPoint}>
             <SearchIcon className={styles.icon} fontSize='large'/>
             <p className={styles.description}>Discover recommendations from friends and experts you actually trust.</p>
-            <Button link="/404" cta="Search" />
+            <Button link="/search" cta="Search" />
           </div>
           {/* <div className={styles.painPoint}>
             <RocketLaunchIcon className={styles.icon} fontSize='large'/>
