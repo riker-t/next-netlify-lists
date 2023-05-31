@@ -17,6 +17,8 @@
 
 # misc
 .DS_Store
+/scripts
+/content
 
 # debug
 npm-debug.log*

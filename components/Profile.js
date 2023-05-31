@@ -1,7 +1,7 @@
 // Profile.js
 import styles from './Profile.module.css';
 import HeroNumber from './HeroNumber';
-import ProfileInfo from './ProfileInfo';
+import ProfileInfo from '../pages/profiles/ProfileInfo';
 import ProfileListOverview from './ProfileListOverview';
 
 function Profile({ user }) {

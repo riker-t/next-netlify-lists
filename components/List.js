@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import Item from './Item';
+import Item from '../pages/lists/Item';
 import ListHeader from './ListHeader';
-import GalleryView from './GalleryView';
+import GalleryView from '../pages/lists/GalleryView';
 import styles from './List.module.css';
 
 const List = ({ data }) => {

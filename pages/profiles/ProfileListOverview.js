@@ -5,6 +5,7 @@ import ProfileListGroup from './ProfileListGroup';
 
 
 function ProfileListOverview({ groups }) {
+    console.log(groups)
     return (
         <div className={styles.overview}>
             {groups.map(group => <ProfileListGroup key={group.title} {...group} />)}

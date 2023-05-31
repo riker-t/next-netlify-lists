@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Item from './Item';
+import Item from '../pages/lists/Item';
 import ItemListActionBar from './ItemListActionBar';
 import ListHeader from './ListHeader';
-import GalleryView from './GalleryView';
+import GalleryView from '../pages/lists/GalleryView';
 import styles from './ItemListSections.module.css'; 
 
 const ItemListSections = ({ data }) => {
