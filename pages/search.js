@@ -9,7 +9,6 @@ const Search = () => {
     const [results, setResults] = useState([]);
     const [initialLists, setInitialLists] = useState([]);
     const [initialProfiles, setInitialProfiles] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
 
 
 
@@ -47,8 +46,6 @@ const Search = () => {
         };
 
         fetchInitialData();
-        setIsLoading(false);
-
     }, []);
 
     useEffect(() => {
@@ -80,7 +77,7 @@ const Search = () => {
         }
     };
 
-    if (isLoading) {
+    if (initialLists.length === 0) {
         return <div>Loading...</div>;
     }
 
