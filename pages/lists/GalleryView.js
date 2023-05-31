@@ -22,11 +22,19 @@ function GalleryView({ images, index, onClose }) {
       <SwipeableViews index={currentImage} onChangeIndex={handleChangeIndex} resistance>
         {images.map((image, i) => (
           <div key={i} className={styles.galleryImageWrapper}>
-            <img
-              src={image.photoUrl}
-              alt={image.name}
-              className={styles.galleryImage}
-            />
+            {image.photoUrl ? (
+              <img
+                src={image.photoUrl}
+                alt={image.name}
+                className={styles.galleryImage}
+              />
+            ) : (
+              <img
+                src='https://images.unsplash.com/photo-1559311648-addd6af95dd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80'
+                alt="Fallback Image"
+                className={styles.galleryImage}
+              />
+            )}
           </div>
         ))}
       </SwipeableViews>
