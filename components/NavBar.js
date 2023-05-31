@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Link href="/">
-        <a className={styles.logo}>Recs</a>
+        <a className={styles.logo}>Lists</a>
       </Link>
       <NavBarMenu />
     </nav>

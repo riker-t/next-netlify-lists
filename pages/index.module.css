@@ -7,6 +7,7 @@
     padding: 20px;
     overflow: hidden;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .contentContainer {
@@ -23,7 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .painPoint {

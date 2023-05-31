@@ -35,9 +35,9 @@ const NavbarMenu = () => {
                 <div className={styles.menuButton}>
                     <Link href="/"><a onClick={() => setMenuOpen(false)} >Home</a></Link>
                 </div>
-                <div className={styles.menuButton}>
+                {/* <div className={styles.menuButton}>
                     <Link href="/example_list_new"><a onClick={() => setMenuOpen(false)}>Example</a></Link>
-                </div>
+                </div> */}
 
                 {/* <Link href="/create_async"><a onClick={() => setMenuOpen(false)}>Create</a></Link> */}
             </div>
