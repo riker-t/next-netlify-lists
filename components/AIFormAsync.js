@@ -78,27 +78,18 @@ function AIFormAsync() {
             <textarea value={input} onChange={(e) => setInput(e.target.value)} className={styles.inputContent} />
           </label>
           <div className={styles.settings}>
-            {/* React Component */}
-            <div className={styles.labelCheckbox}>
-              <input
-                id="findWebsites"
-                type="checkbox"
-                checked={findWebsites}
-                onChange={() => setFindWebsites(!findWebsites)}
-                style={{ display: 'none' }} // Hide the original checkbox
-              />
-              <label htmlFor="findWebsites" className={findWebsites ? styles.customCheckboxChecked : styles.customCheckbox}></label>
+            <label className={styles.label}>
               Find Websites:
-            </div>
-
-            {/* <label className={styles.label}>
+              <input type="checkbox" checked={findWebsites} onChange={() => setFindWebsites(!findWebsites)} />
+            </label>
+            <label className={styles.label}>
               Create Photos:
               <input type="checkbox" checked={createPhotos} onChange={() => setCreatePhotos(!createPhotos)} />
             </label>
             <label className={styles.label}>
               Write to DB:
               <input type="checkbox" checked={createPhotos} onChange={() => setWriteToDb(!writeToDb)} />
-            </label> */}
+            </label>
             <div></div>
 
             <label className={styles.label}>

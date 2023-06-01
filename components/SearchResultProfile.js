@@ -13,7 +13,6 @@ function SearchResultProfile({ profile, refId }) {
         <div className={styles.profileContainer} onClick={handleProfileClick}>
             <img src={profile.photoUrl} alt={profile.name} className={styles.profileImage} />
             <h2 className={styles.profileName}>{profile.name}</h2>
-            
             {/* Add more fields if necessary */}
         </div>
     );

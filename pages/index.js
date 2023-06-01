@@ -18,7 +18,7 @@ export default function Home() {
           <div className={styles.painPoint}>
             <AutoFixHighIcon className={styles.icon} fontSize='large' />
             <p className={styles.description}>Use AI to transform notes, messages, docs, and social media into shareable content within minutes.</p>
-            <Button link="/create_async" cta="Try It" />
+            <Button link="/404" cta="Try It" />
           </div>
           <div className={styles.painPoint}>
             <SearchIcon className={styles.icon} fontSize='large'/>
