@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import SearchResultList from '@components/SearchResultList';
 import SearchResultProfile from '@components/SearchResultProfile';
 import styles from './Search.module.css';
+import ProfileList from './profiles/ProfileList';
 
 const Search = () => {
     const [searchValue, setSearchValue] = useState('');
@@ -9,6 +10,8 @@ const Search = () => {
     const [results, setResults] = useState([]);
     const [initialLists, setInitialLists] = useState([]);
     const [initialProfiles, setInitialProfiles] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
 
 
 
@@ -38,11 +41,19 @@ const Search = () => {
 
     useEffect(() => {
         const fetchInitialData = async () => {
-            const initialListsData = await fetchInitialLists('');
-            const initialProfilesData = await fetchInitialProfiles('');
+            try {
+                const [initialListsData, initialProfilesData] = await Promise.all([
+                    fetchInitialLists(''),
+                    fetchInitialProfiles('')
+                ]);
 
-            setInitialLists(initialListsData);
-            setInitialProfiles(initialProfilesData);
+                setInitialLists(initialListsData);
+                setInitialProfiles(initialProfilesData);
+            } catch (error) {
+                console.error(error);  // handle error as needed
+            } finally {
+                setIsLoading(false);  // ensure this runs after both fetches have either resolved or rejected
+            }
         };
 
         fetchInitialData();
@@ -77,28 +88,28 @@ const Search = () => {
         }
     };
 
-    if (initialLists.length === 0) {
+    if (isLoading) {
         return <div>Loading...</div>;
     }
 
     return (
         <div>
-            {/* <input
+            <input
                 type="text"
                 value={searchValue}
                 onChange={(e) => setSearchValue(e.target.value)}
                 className={styles.searchBar}
                 onFocus={handleFocus}
                 onBlur={handleBlur}
-                placeholder="Search"
-            /> */}
+                placeholder="Search (It doesn't work yet)"
+            />
             <div className={styles.tabs}>
                 <div className={`${styles.tab} ${activeTab === 0 ? styles.activeTab : ''}`} onClick={() => setActiveTab(0)}>Lists</div>
                 <div className={`${styles.tab} ${activeTab === 1 ? styles.activeTab : ''}`} onClick={() => setActiveTab(1)}>Profiles</div>
                 <div className={`${styles.underline} ${activeTab === 0 ? styles.list : styles.profile}`}></div>
             </div>
             {results.map((result) => activeTab === 0
-                ? <SearchResultList key={result.ref['@ref'].id} list={result.data} refId={result.ref['@ref'].id} />
+                ? <ProfileList key={result.ref['@ref'].id} data={result.data} refId={result.ref['@ref'].id} />
                 : <SearchResultProfile key={result.ref['@ref'].id} profile={result.data} refId={result.ref['@ref'].id}/>
             )}
         </div>
