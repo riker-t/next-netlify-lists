@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Friday May 26th",
+      "description": "Arrive Florence: 11 am Friday May 26th\nOthers arrive afternoon\n7pm La Rocca - booked",
+      "photoUrl": "",
+      "link": "",
+      "order": 1
+    },
+    {
+      "name": "Saturday May 27th",
+      "description": "Part of group arrives midday\nBig lunch at home (include in groceries list for Nadia)\nPool\nDrinks at house and wine bar by house\nDinner (La Tavernetta) - Booked 8pm",
+      "photoUrl": "",
+      "link": "",
+      "order": 2
+    },
+    {
+      "name": "Sunday May 28th - Maggiolata",
+      "description": "La Maggiolata festival\nFestival communal dinner in town/party",
+      "photoUrl": "",
+      "link": "",
+      "order": 3
+    },
+    {
+      "name": "Monday May 29th (NCC Lucig - Mario)",
+      "description": "Bella arrives :)\nNadia cooks us big lunch at home - confirmed 12:30pm\nGo to Sienna - Total price 2 Vans: 720€\nDepart 3:45pm\nArrive around 4:15\nDinner Sienna -Ristorante Guido\nReserved for 7:30pm\nReturn 9:15pm",
+      "photoUrl": "",
+      "link": "",
+      "order": 4
+    },
+    {
+      "name": "Tuesday May 30th (Matteo)",
+      "description": "Day trip to Florence: - Total price 2 Vans: 830€\nDepart Lucignano: 9:15 am\nStop at “The Mall” (1-1.5 hrs)\nContinue to Florence\nLunch: La Giostra Booked 1:15 PM\nLeave Florence: 4:45pm\nDinner: Pizzas at the house?",
+      "photoUrl": "",
+      "link": "",
+      "order": 5
+    },
+    {
+      "name": "Wednesday May 31st (Tini Bday!!!) (NCC Lucig - Mario)",
+      "description": "Total price 2 Vans: 700€\nLeave Lucignano: 10:15am\nVineyard Tenimenti d’Alessandro -BOOKED FOR 11AM (1HR)\n12:15pm go from vineyard to Cortona:\nCortona Tini bday lunch -- booked 1:30 Locanda Al Pozzo Antico\nDal Gallo dinner - 8:30pm (need to book or leave up in the air if we want food?)",
+      "photoUrl": "",
+      "link": "",
+      "order": 6
+    },
+    {
+      "name": "Thursday June 1(Matteo)",
+      "description": "10:15am from Lucignano to Aggricola Fabbriche\nTotal price 2 Vans: 820€\nAgricola Fabbriche  Tuscany- 10:30am (2.5 hrs)\n1pm from vineyard to Pienza\nPienza lunch -  booked for 1:30 La Terrazza Del Chiostra\nMarket in village (I think) → cook our own dinner or maybe final dinner in town",
+      "photoUrl": "",
+      "link": "",
+      "order": 7
+    },
+    {
+      "name": "Friday June 2 (Matteo - 1/2 vans)",
+      "description": "11:10 from Lucignano to Arezzo train station\nTotal price 2 Vans: 220€ (2 Vans OR 1Van+1Sedan)\n12:17 train from Arezzo to Rome (https://www.lefrecce.it/Channels.Website.WEB/#/search-results?handoff=true)\nTaverna Trilussa - 7pm",
+      "photoUrl": "",
+      "link": "",
+      "order": 8
+    },
+    {
+      "name": "Saturday June 3 (Rome)",
+      "description": "",
+      "photoUrl": "",
+      "link": "",
+      "order": 9
+    },
+    {
+      "name": "Sunday June 4th (Leave)",
+      "description": "Leave Rome 6am",
+      "photoUrl": "",
+      "link": "",
+      "order": 10
+    }
+  ]
+  

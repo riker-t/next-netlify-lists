@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+    scroll-snap-type: x mandatory; /* Enable horizontal scrolling */
+    overflow-x: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    scrollbar-width: none; /* Hide the scrollbar */
+    -ms-overflow-style: none; /* Hide the scrollbar for Internet Explorer and Edge */
+}
+
+
+.list::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for WebKit browsers */
+}

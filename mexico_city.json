@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Roma norte",
+        "description": "Coolest neighborhood we explored. Very modern, young, hip vibe with clean streets and nice parks. Stop by the famous panaderia rosetta for a pastry and coffee and explore the market across the street for some local food goods and cool thrift options. Contramar for lunch which is one of the best meals we had, get the special fish on the menu(forget what it’s callled but it’s half green half red). Tuna ceviche also amazing. Apparently this place pops off a bit on saturdays during the day but we went on a Sunday so can’t verify.",
+        "photoUrl": "",
+        "link": "",
+        "order": 1
+    },
+    {
+        "name": "blanco Colima",
+        "description": "Head to blanco Colima which is a really cool open floor plan house converted into a trendy restaurant. They have dj sets at night, incredible trendy place with good cocktails. Great vibe. Food was good but would recommend heading here before or after dinner and eating somewhere like nudo negra instead (didn’t eat here ourselves but was recommended by Nicole)",
+        "photoUrl": "",
+        "link": "",
+        "order": 2
+    },
+    
+    {
+        "name": "maison artesmia",
+        "description": "Another very cool bar we tried here was maison artesmia. It’s basically a three story house with a bunch of couches and lounge chairs where you can sit around and have delicious cocktails. Feels very speakeasy-ish; and you can tell it was a cool spot because it was mostly locals here. Kind of hard to get a spot because people love to just hang around for hours smoking cigs and shooting the shit.",
+        "photoUrl": "",
+        "link": "",
+        "order": 3
+    },
+    {
+        "name": "Polanco",
+        "description": "Polanco is the boujee neighborhood, this is where you’ll find all of the luxury shopping, Tesla store. Etc. we had spicy margaritas at cabana which were some of the best we’d ever had. Only food we got was guac and it was eh.",
+        "photoUrl": "",
+        "link": "",
+        "order": 4
+    },
+    {
+        "name": "Pujol",
+        "description": "Two incredible tasting menu restaurants here: Pujol and quintonil. Both require reservations far in advance. Pujol is the most famous restaurant in the city; Julia Collins told me she still dreams about her meal there. We couldn’t get a res there and went to quintonil, which was started by a chef who left Pujol. The tasting menu was fantastic, they also do a wine pairing but we opted for their delicious mezcal cocktails.",
+        "photoUrl": "",
+        "link": "",
+        "order": 5
+    },
+    {
+        "name": "quintonil",
+        "description": "Two incredible tasting menu restaurants here: Pujol and quintonil. Both require reservations far in advance. Pujol is the most famous restaurant in the city; Julia Collins told me she still dreams about her meal there. We couldn’t get a res there and went to quintonil, which was started by a chef who left Pujol. The tasting menu was fantastic, they also do a wine pairing but we opted for their delicious mezcal cocktails.",
+        "photoUrl": "",
+        "link": "",
+        "order": 6
+    },
+    {
+        "name": "Lincoln park",
+        "description": "Also there’s Lincoln park here which is kind of small but weirdly has an MLK statue: worth checking out",
+        "photoUrl": "",
+        "link": "",
+        "order": 7
+    },
+    {
+        "name": "Taqueria el turix",
+        "description": "Taqueria el turix is insane. Incredible hole in the wall spot in one of the nicest areas of the city. Absolute must hit. Try everything on the menu.",
+        "photoUrl": "",
+        "link": "",
+        "order": 8
+    },
+    {
+        "name": "Museo soumaya",
+        "description": "Museo soumaya is really cool and on the fringes of this area",
+        "photoUrl": "",
+        "link": "",
+        "order": 9
+    },
+    {
+        "name": "Hanky panky",
+        "description": "Hanky panky - very cool speakeasy",
+        "photoUrl": "",
+        "link": "",
+        "order": 10
+    },
+    {
+        "name": "Museo Anthropologie",
+        "description": "Museo Anthropologie",
+        "photoUrl": "",
+        "link": "",
+        "order": 11
+    },
+    {
+        "name": "Frido kahla museum and area",
+        "description": "Frido kahla museum and area - forget what this area is called; kind of touristy. I wasn’t obsessed with Frodo kahla but it’s worth hitting if you’re there for a while. This area also has lots of local markets and food (churros, street corn, etc)",
+        "photoUrl": "",
+        "link": "",
+        "order": 12
+    },
+    {
+        "name": "Las luchas",
+        "description": "Las luchas - go see Mexican wrestling",
+        "photoUrl": "",
+        "link": "",
+        "order": 13
+    },
+    {
+        "name": "Pyramids hot air balloon tour",
+        "description": "Pyramids hot air balloon tour",
+        "photoUrl": "",
+        "link": "",
+        "order": 14
+    }
+]

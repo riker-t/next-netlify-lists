@@ -7,6 +7,7 @@ import HeroNumber from './HeroNumber';
 import ProfileInfo from './ProfileInfo';
 import ProfileListOverview from './ProfileListOverview';
 import ProfileListGroup from './ProfileListGroup';
+import ProfileLists from './ProfileLists';
 
 function ProfilePage() {
     const router = useRouter();
@@ -42,12 +43,13 @@ function ProfilePage() {
         <div className={styles.profile}>
             <ProfileInfo image={profile.data.photoUrl} name={profile.data.name} />
             <div className={styles.heroNumbers}>
-                <HeroNumber number={lists.length} label="Lists" />
+                <HeroNumber number={lists.length} label="List(s)" />
                 {/*You will need to modify these HeroNumber components to fit with your actual data structure*/}
-                <HeroNumber number={0} label="Likes" />
-                <HeroNumber number={0} label="Saves" />
+                {/* <HeroNumber number={0} label="Likes" />
+                <HeroNumber number={0} label="Saves" /> */}
             </div>
-            <ProfileListGroup lists={lists} />
+
+            <ProfileLists lists={lists} />
         </div>
     );
 }

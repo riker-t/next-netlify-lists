@@ -40,7 +40,6 @@
 
 .indicator {
     text-align: center;
-    font-size: var(--small-text)
 }
 .galleryContent {
     display: flex; 

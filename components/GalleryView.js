@@ -1,6 +1,6 @@
 import React from 'react';
 import SwipeableViews from 'react-swipeable-views-react-18-fix';
-import { FaArrowAltCircleLeft, FaList } from 'react-icons/fa';
+import { FaArrowAltCircleLeft } from 'react-icons/fa';
 import styles from './GalleryView.module.css';
 import itemstyles from './Item.module.css';
 
@@ -16,19 +16,18 @@ function GalleryView({ images, index, onClose }) {
   return (
     <div className={styles.galleryView}>
       <div className={styles.closeButton} onClick={onClose}>
-        <FaList />
+        <FaArrowAltCircleLeft />
       </div>
 
       <SwipeableViews index={currentImage} onChangeIndex={handleChangeIndex} resistance>
         {images.map((image, i) => (
           <div key={i} className={styles.galleryImageWrapper}>
-            {(image.photoUrl || image.linkUrl) ? (
+            {image.photoUrl ? (
               <img
-                src={image.photoUrl || `https://image.thum.io/get/auth/${process.env.THUMBIO_KEY}/${image.linkUrl}`}
+                src={image.photoUrl}
                 alt={image.name}
                 className={styles.galleryImage}
               />
-
             ) : (
               <img
                 src='https://images.unsplash.com/photo-1559311648-addd6af95dd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80'
@@ -49,13 +48,18 @@ function GalleryView({ images, index, onClose }) {
           </div>
         )}
         <div >
-          {images[currentImage].linkUrl &&
-            <div className={styles.itemCtasContainer}>
-
-              <a href={images[currentImage].linkUrl} target="_blank" rel="noopener noreferrer" className={itemstyles.itemCta}>
-                Link
+          {images[currentImage].ctas &&
+            images[currentImage].ctas.map((cta) => (
+              <a
+                key={cta.title}
+                href={cta.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={itemstyles.itemCta}
+              >
+                {cta.title}
               </a>
-            </div>}
+            ))}
         </div>
       </div>
     </div>

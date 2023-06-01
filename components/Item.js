@@ -1,19 +1,20 @@
 import React from 'react';
 import styles from './Item.module.css';
-const THUMBIO_KEY='67857-Lists'
 
 function Item({ item, index, onImageClick }) {
     const handleClick = () => {
-        if (item.photoUrl || item.linkUrl) {
+        if (item.photoUrl) {
             onImageClick(index);
         }
     };
     return (
         <div className={styles.itemContainer}>
-            {(item.photoUrl || item.linkUrl) &&
+            {item.photoUrl &&
                 <div className={styles.imageContainer} onClick={handleClick}>
                     <img
-                        src={item.photoUrl || `https://image.thum.io/get/auth/${THUMBIO_KEY}/${item.linkUrl}`}
+                        src={item.photoUrl || `https://image.thum.io/get/${item.link}`}
+
+                        // src={item.photoUrl}
                         alt={item.name}
                         className={styles.itemImage}
                     />
@@ -22,13 +23,13 @@ function Item({ item, index, onImageClick }) {
             <div className={styles.contentAndCtasContainer}>
                 <div className={styles.itemName}>{item.name}</div>
                 {item.description && <div className={styles.itemDescription}>{item.description}</div>}
-                {item.linkUrl &&
-                    <div className={styles.itemCtasContainer}>
-                        <a href={item.linkUrl} target="_blank" rel="noopener noreferrer" className={styles.itemCta}>
-                            Link
+                <div className={styles.itemCtasContainer}>
+                    {item.ctas && item.ctas.map(cta => (
+                        <a key={cta.title} href={cta.link} target="_blank" rel="noopener noreferrer" className={styles.itemCta}>
+                            {cta.title}
                         </a>
-                    </div>
-                }
+                    ))}
+                </div>
             </div>
         </div>
     );

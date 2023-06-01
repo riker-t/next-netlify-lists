@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegSave, FaThumbsUp, FaThumbsDown, FaRegCopy, FaCopy, FaBookmark } from 'react-icons/fa';
+import { FaRegSave, FaThumbsUp, FaRegCopy, FaCopy, FaBookmark } from 'react-icons/fa';
 import styles from './ListHeader.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -29,14 +29,14 @@ const ListHeader = ({ listName, profileIcon, profileName, profileId }) => {
             </div>
             <div className={styles.actionButtons}>
                 <div className={styles.button} onClick={() => console.log('Save button clicked')}>
-                    <FaThumbsUp />
+                    <FaBookmark />
                 </div>
                 <div className={styles.button} onClick={() => console.log('Thumbs up button clicked')}>
-                    <FaThumbsDown />
+                    <FaThumbsUp />
                 </div >
-                {/* <div className={styles.button} onClick={() => navigator.clipboard.writeText('https://main--glittery-monstera-cafd18.netlify.app/example_list')}>
+                <div className={styles.button} onClick={() => navigator.clipboard.writeText('https://main--glittery-monstera-cafd18.netlify.app/example_list')}>
                     <FaCopy />
-                </div> */}
+                </div>
             </div>
         </div>
     );

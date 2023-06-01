@@ -1,7 +1,6 @@
 .itemContainer {
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: flex-start; */
+    justify-content: flex-start;
     width: 100%;
     border-bottom: 2px solid var(--black);
     padding: 10px;
@@ -42,8 +41,7 @@
 
 
 .itemName {
-    font-size: var(--small-text);
-    font-weight: bold;
+    font-size: var(--normal-text);
     line-height: 20px;
     font-weight: bold;
     margin-bottom: 3px;
@@ -67,7 +65,7 @@
 .itemCta {
     display: inline-block;
     align-self: flex-start;
-    font-size: var(--small-text);
+    font-size: var(--normal-text);
     background-color: var(--white);
     padding: 2px 4px;
     border: 2px solid #010101;
